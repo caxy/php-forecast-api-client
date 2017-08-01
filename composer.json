@@ -1,0 +1,23 @@
+{
+    "name": "caxy/php-forecast-api-client",
+    "type": "library",
+    "description": "PHP client for the https://forecastapp.com undocumented API.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Schroeder",
+            "email": "jschroeder@caxy.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+      "psr-4" : {
+        "Caxy\\ForecastApi\\" : "src"
+      }
+    }
+}
